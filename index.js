@@ -4,12 +4,12 @@ window.addEventListener("load", () => {
 
   const visual = document.querySelector(".visual");
   const colors = [
-    rgb(185, 66, 245),
-    rgb(66, 212, 245),
-    rgb(96, 139, 61),
-    rgb(245, 66, 108),
-    rgb(239, 245, 66),
-    rgb(81, 66, 245)
+    "#B942F5",
+    "#42D4F5",
+    "#93F542",
+    "#F5426C",
+    "#EFF542",
+    "#5142F5"
   ];
 
   pads.forEach((pad, index) => {
@@ -25,7 +25,7 @@ window.addEventListener("load", () => {
   const createBubbles = index => {
     const bubble = document.createElement("div");
     visual.appendChild(bubble);
-    bubble.style.backgroundColor = color[index];
+    bubble.style.backgroundColor = colors[index];
     bubble.style.animation = "jump 1s ease";
     bubble.addEventListener("animationend", function() {
       visual.removeChild(this);
