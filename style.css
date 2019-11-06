@@ -27,3 +27,9 @@ header p {
   width: 100%;
   display: flex;
 }
+
+.pads > div {
+  height: 100px;
+  width: 100px;
+  flex: 1;
+}
