@@ -17,3 +17,13 @@ header h1 {
   text-align: center;
   font-size: 40px;
 }
+
+header p {
+  font-size: 25px;
+}
+
+.pads {
+  background: lightblue;
+  width: 100%;
+  display: flex;
+}
