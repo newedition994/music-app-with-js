@@ -33,3 +33,27 @@ header p {
   width: 100px;
   flex: 1;
 }
+
+.pad1 {
+  background: rgb(185, 66, 245);
+}
+
+.pad2 {
+  background: rgb(66, 212, 245);
+}
+
+.pad3 {
+  background: rgb(147, 245, 66);
+}
+
+.pad4 {
+  background: rgb(245, 66, 108);
+}
+
+.pad5 {
+  background: rgb(239, 245, 66);
+}
+
+.pad6 {
+  background: rgb(81, 66, 245);
+}
